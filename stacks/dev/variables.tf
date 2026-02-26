@@ -1,4 +1,4 @@
-variable "root_bucket_name" {
+variable "databricks_account_id" {
   type        = string
-  description = "Dev workspace Databricks root S3 bucket name"
+  description = "Databricks Account ID"
 }
